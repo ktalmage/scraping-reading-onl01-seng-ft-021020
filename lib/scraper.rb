@@ -5,4 +5,4 @@ html = open("https://flatironschool.com/")
 
 Nokogiri::HTML(html)
 
-dov = 
+dov = Nokogiri::HTML(html)
