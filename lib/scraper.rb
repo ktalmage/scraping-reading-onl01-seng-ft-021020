@@ -7,4 +7,4 @@ Nokogiri::HTML(html)
 
 doc = Nokogiri::HTML(open("https://flatironschool.com/"))
 
-puts doc.css(".inlineMobileLeft-2Yo002-").text.strip
+puts doc.css(".inlineMobileLeft-2Yo002.imageTextBlockGrid2-3jXtmC")
